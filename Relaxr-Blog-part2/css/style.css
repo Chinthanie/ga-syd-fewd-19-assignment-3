@@ -208,4 +208,45 @@ small {
     display: inline-block;
 }
 
+/*Hover over link*/
+#mainnav:active {
+    text-decoration: none;
+}
 
+#mainnav :hover {
+    color: white;
+}
+
+aside a:active {
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #f9e42e;
+}
+
+#column1 a:active {
+    text-decoration: none;
+}
+
+#column1 a:hover {
+    color: #f9e42e;
+}
+
+
+.button:active {
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #033048;
+    background-color: white;
+}
+
+#categories li:active {
+    text-decoration: none;
+}
+
+#categories li:hover {
+    text-decoration: underline;
+}
